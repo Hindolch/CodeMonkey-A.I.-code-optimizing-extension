@@ -2,7 +2,7 @@ const vscode = require('vscode');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 
 // Initialize Gemini API
-const genAI = new GoogleGenerativeAI('AIzaSyBcCjVkUfxYJi331InL5D2Hb3sj33W1Ng4');
+const genAI = new GoogleGenerativeAI('GEMINI_API');
 const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
 
 // Queue for managing concurrent requests
