@@ -3,7 +3,7 @@
   "displayName": "CodeMonkey",
   "description": "Access the code written in the current open file and check for potential errors and improvements or code optimization by leveraging CodeLlama LLM model.",
   "version": "1.0.0",
-  "publisher": "Hindol Choudhury",
+  "publisher": "HindolChoudhury",
   "engines": {
     "vscode": "^1.96.0"
   },
