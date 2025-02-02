@@ -5,12 +5,12 @@ CodeMonkey is a VSCode extension designed to optimize the code of the currently 
 ## Features
 
 - **Code Optimization**: Optimize the code within the current file, making it cleaner and more efficient.
-- **Selective Optimization**: Select a specific block of code to optimize.
+- **Selective Optimization**: Select a specific block of code to optimize by hovering over it.
 - **Full File Optimization**: Run the `CodeMonkey` command (`Ctrl+Shift+P`) to optimize the entire file.
 
 ### Example:
 
-If you select a code block, CodeMonkey will focus on optimizing only the highlighted section. Alternatively, running the `CodeMonkey` command will optimize the entire file, ensuring consistency and efficiency across your project.
+If you select a code block, CodeMonkey will focus on optimizing only the highlighted section. Alternatively, running the `codeMonkey` command will optimize the entire file, ensuring consistency and efficiency across your project.
 
 > Tip: Try running the optimization on large files to notice improvements in readability and performance!
 
