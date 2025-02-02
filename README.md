@@ -1,65 +1,55 @@
-# codemonkey README
 
-This is the README for your extension "codemonkey". After writing up a brief description, we recommend including the following sections.
+# CodeMonkey README
+
+This is the README for your extension "CodeMonkey". CodeMonkey is a VSCode extension designed to optimize the code of the currently opened file. You can either select a specific block of code or run the command `CodeMonkey` via `Ctrl+Shift+P` to optimize the entire code file.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Code Optimization**: Optimize the code within the current file, making it cleaner and more efficient.
+- **Selective Optimization**: Select a specific block of code to optimize.
+- **Full File Optimization**: Run the `CodeMonkey` command (`Ctrl+Shift+P`) to optimize the entire file.
 
-For example if there is an image subfolder under your extension project workspace:
+### Example:
 
-\!\[feature X\]\(images/feature-x.png\)
+If you select a code block, CodeMonkey will focus on optimizing only the highlighted section. Alternatively, running the `CodeMonkey` command will optimize the entire file, ensuring consistency and efficiency across your project.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+> Tip: Try running the optimization on large files to notice improvements in readability and performance!
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- **Visual Studio Code**: Ensure you're using a compatible version of VSCode.
+- **Node.js**: Some optimization processes might require Node.js as a dependency.
 
-## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+You can configure these settings from the VSCode settings menu.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- Some edge cases may cause errors during optimization for complex code blocks. If you encounter an issue, please report it on the GitHub repository.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+- Initial release of the **CodeMonkey** extension. 
+- Basic functionality for optimizing code blocks and entire files.
 
 ---
 
 ## Working with Markdown
 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
 
 * Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
 * Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
+* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
 
 ## For more information
 
 * [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-**Enjoy!**
+**Enjoy optimizing your code with CodeMonkey!**
+
+---
+
