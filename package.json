@@ -1,0 +1,50 @@
+{
+  "name": "codemonkey",
+  "displayName": "CodeMonkey",
+  "description": "Access the code written in the current open file and check for potential errors and improvements or code optimization by leveraging CodeLlama LLM model.",
+  "version": "1.0.0",
+  "publisher": "Hindol Choudhury",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:python",
+    "onLanguage:javascript",
+    "onLanguage:cpp",
+    "onLanguage:java"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "codemonkey.refactorCode",
+        "title": "codeMonkey"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@types/vscode": "^1.96.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1",
+    "eslint": "^9.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hindolch/CodeMonkey-A.I.-code-optimizing-extentsion.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.7"
+  }
+}
