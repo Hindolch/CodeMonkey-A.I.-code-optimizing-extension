@@ -14,6 +14,14 @@ If you select a code block, CodeMonkey will focus on optimizing only the highlig
 
 > Tip: Try running the optimization on large files to notice improvements in readability and performance!
 
+### Here's a short demo video:
+
+
+https://github.com/user-attachments/assets/7fa85057-7e5b-41b6-845c-a976042686b6
+
+
+
+
 ## Requirements
 
 - **Visual Studio Code**: Ensure you're using a compatible version of VSCode.
